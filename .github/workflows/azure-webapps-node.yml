@@ -36,7 +36,7 @@ jobs:
 
     - name: Azure WebApp
       uses: Azure/Webapps-deploy@v2
-      with:# Name of the Azure Web App
+     github/workflows/azure-webapps-node.yml
     app-name: 
     # Applies to Web Apps(Windows and Linux) and Web App Containers(linux). Multi container scenario not supported. Publish profile (*.publishsettings) file contents with Web Deploy secrets
     publish-profile: # optional
